@@ -18,10 +18,10 @@ body {
   color: #333333;
 }
 
-/* body.modo-escuro {
+body.modo-escuro {
   background-color: #001252;
   color: #333333;
-} */
+}
 
 header {
   background-color: #f5f5f5;
@@ -31,9 +31,9 @@ header {
   border-radius: 0px 0px 80px 80px;
 }
 
-/* .modo-escuro header {
-  background-color: #b8b8b8;
-} */
+.modo-escuro header {
+  background-color: #00000080;
+}
 
 header .logo {
   text-align: center;
@@ -78,12 +78,16 @@ main .cartao-pokemon {
   transition: 0.2s ease-in-out;
 }
 
-/* .modo-escuro .cartao-pokemon {
-  background-color: #b8b8b8;
-} */
+.modo-escuro .cartao-pokemon {
+  background-color: #00000080;
+}
 
 main .cartao-pokemon:hover {
   background-color: #fff8be;
+}
+
+.modo-escuro .cartao-pokemon:hover {
+  background-color: #000000;
 }
 
 main .cartao-pokemon .informacoes {
@@ -95,11 +99,6 @@ main .cartao-pokemon .informacoes {
   box-shadow: #293e65 3px 3px;
   font-weight: 900;
 }
-
-/* .modo-escuro .cartao-pokemon .informacoes span {
-  background-color: #cacaca;
-  color: #293e65;
-} */
 
 main .cartao-pokemon .informacoes span {
   padding: 5px;
@@ -123,6 +122,10 @@ main .cartao-pokemon .tipo {
   border-radius: 5px;
   color: #293e65;
   font-weight: 700;
+}
+
+.modo-escuro .cartao-pokemon .tipo {
+  color: #ffffff;
 }
 
 .grama {
@@ -166,6 +169,10 @@ main .descricao {
   font-size: 14px;
   color: #293e65;
   font-weight: 300;
+}
+
+.modo-escuro .descricao {
+  color: #ffffff;
 }
 
 /* ===== Scrollbar CSS ===== */
